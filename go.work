@@ -3,3 +3,4 @@ go 1.21.1
 use ./dayone
 use ./daytwo
 use ./daythree
+use ./dayfour
