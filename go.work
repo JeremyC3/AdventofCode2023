@@ -4,3 +4,5 @@ use ./dayone
 use ./daytwo
 use ./daythree
 use ./dayfour
+use ./dayfive
+use ./daysix
