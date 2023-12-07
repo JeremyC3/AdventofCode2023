@@ -16,13 +16,13 @@ func TestCube( t *testing.T){
 	}
 }
 
-// func TestBonusGear(t *testing.T){
-// 	file, err := os.ReadFile("testinput")
-// 	if err!=nil{
-// 		t.Fatalf("error reading file")
-// 	}
+func TestBonusGear(t *testing.T){
+	file, err := os.ReadFile("testinput")
+	if err!=nil{
+		t.Fatalf("error reading file")
+	}
 
-// 	if y := BonusGear(string(file)); y != 2286{
-// 		t.Fatalf("expected value 2286, received %v", y)
-// 	}
-// }
+	if y := BonusGear(string(file)); y != 467835{
+		t.Fatalf("expected value 467835, received %v", y)
+	}
+}
