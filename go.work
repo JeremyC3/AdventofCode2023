@@ -6,3 +6,6 @@ use ./daythree
 use ./dayfour
 use ./dayfive
 use ./daysix
+use ./dayseven
+use ./dayeight
+use ./daynine
