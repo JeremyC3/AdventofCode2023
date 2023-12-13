@@ -73,7 +73,7 @@ func BonusWasteland(f string)(ans int){
 	var instructions []rune
 	steps := 0
 	currNodes := []string{}
-	stepSlice := []int{}
+	// stepSlice := []int{}
 	for key, row := range strings.Split(f, "\n"){
 		runeRow := []rune(row)
 		if key==0{
