@@ -16,13 +16,13 @@ func TestScratchcard( t *testing.T){
 	}
 }
 
-// func TestBonusScratchcard(t *testing.T){
-// 	file, err := os.ReadFile("bonustestinput")
-// 	if err!=nil{
-// 		t.Fatalf("error reading file")
-// 	}
+func TestBonusScratchcard(t *testing.T){
+	file, err := os.ReadFile("testinput")
+	if err!=nil{
+		t.Fatalf("error reading file")
+	}
 
-// 	if y := BonusScratchcard(string(file)); y != 30{
-// 		t.Fatalf("expected value 30, received %v", y)
-// 	}
-// }
+	if y := BonusScratchcard(string(file)); y != 30{
+		t.Fatalf("expected value 30, received %v", y)
+	}
+}
