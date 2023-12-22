@@ -12,3 +12,8 @@ use ./daynine
 use ./dayten
 use ./dayeleven
 use ./daytwelve
+use ./daythirteen
+use ./dayfourteen
+use ./dayfifteen
+use ./daysixteen
+use ./dayseventeen
