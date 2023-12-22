@@ -12,8 +12,8 @@ func main(){
 		fmt.Print(err)
 	}
 	str := string(file)
-	fmt.Println(Gear(str))
-	// fmt.Println(BonusGear(str))
+	// fmt.Println(Gear(str))
+	fmt.Println(BonusGear(str))
 }
 
 func Gear(f string) (ans int){
@@ -98,7 +98,7 @@ func BonusGear(f string) (ans int){
 			if (char >= '0' && char <= '9'){	
 				// if it's a number, add it to the tempSum and then check for validity
 				tempSum = tempSum*10 + int(char-'0')
-				fmt.Printf("adding %s from coordinates %d:%d with a sum of %d\n", string(char), x, y, tempSum)
+				// fmt.Printf("adding %s from coordinates %d:%d with a sum of %d\n", string(char), x, y, tempSum)
 
 				// check all adjacent spaces and see if we have any valid spaces.
 				adjSpaces := [8]string{fmt.Sprintf("%d,%d", x+1, y+1),fmt.Sprintf("%d,%d", x+1, y) ,fmt.Sprintf("%d,%d", x+1, y-1), fmt.Sprintf("%d,%d", x, y+1),fmt.Sprintf("%d,%d", x, y-1), fmt.Sprintf("%d,%d", x-1, y+1), fmt.Sprintf("%d,%d", x-1, y), fmt.Sprintf("%d,%d", x-1, y-1)}
